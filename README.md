@@ -8,19 +8,25 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. imprt required python libraries and load the CSV file using pandas
-2. necessary preprocessing steps to be conducted
-3. use labelencoder to encode the values
-4. split the data set for training and test using train_test_split
-5. import DecisionTreeRegressor to make decision
-6. calculate the mean squared error and R2_score
-7. do the prediction on the unsean values
+step 1: Import necessary libraries like pandas, scikit-learn, and metrics.
+
+step 2: Load employee data into a pandas DataFrame.
+
+step 3: Divide data into features (X) and target variable (y: Salary). Split into training and testing sets.
+
+step 4: Create a DecisionTreeRegressor object.
+
+step 5: Train the model on the training data.
+
+step 6: Use the trained model to predict salaries for the testing data.
+
+ step 7: Evaluate the model's performance using metrics like MSE and MAE.
 
 ## Program:
 ```
 /*
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
-Developed by: KARUNIYA M
+Developed by: KARUNIYA M 
 RegisterNumber:  212223240068
 */
 import pandas as pd
